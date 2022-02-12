@@ -71,7 +71,7 @@ case $1 in
         echo -e "[-]${BOLD} Honeyports activated...${OFF}"
         echo "[-] $STARTED"
 	      echo -e "[*] Log file located at: $LOGS\n"
-        # save start time to log file
+        # save start time to log file ?
         while [ 1 ] 
         do
             IP=`nc -nvlp $2 2>&1 1> /dev/null | grep from | awk '{print $4}' |grep -E "([0-9]{1,3}[\.]){3}[0-9]{1,3}" | grep : | cut -d ':' -f 1` 
