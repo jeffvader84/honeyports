@@ -1,4 +1,4 @@
-# honeyports
+# HoneyPorts
 HoneyPorts is a Active Cyber Defense/Deception tool
 
 >HoneyPorts will open a port, wait for an attacker to attempt a TCP connection, and then blocks the IP Address at the local firewall.  This type of connection attempt is common during enumeration scans.  All activity is saved to a log file.
